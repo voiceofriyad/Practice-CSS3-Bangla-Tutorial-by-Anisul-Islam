@@ -1,0 +1,155 @@
+body{
+	background-image: url(../back.jpg);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-attachment: fixed;
+}
+.heading-style{
+	color: green;
+	font-size: 300%;
+}
+
+#para-style{
+	color: red;
+	font-size: 150%;
+	font-family: tahoma;
+	font-style: italic;
+}
+
+#section{
+	background-color: green;
+}
+
+#section h1{
+	color: red;
+}
+
+.style1{
+	font-size: 270%;
+	font-family: 'Bangers', cursive;
+}
+
+#section1{
+	text-decoration: underline;
+}
+#section1 p{
+	text-indent: 100px;
+}
+
+#section2{
+	text-align: center;
+	text-decoration: line-through;
+	text-transform: uppercase;
+}
+
+#section2 h1{
+	text-shadow: 5px 2px red;
+}
+
+#float1{
+	background-color: green;
+	float: left;
+}
+#float2{
+	background-color: orange;	
+	float: right;
+}
+#float3{
+	background-color: yellow;	
+	clear: both;
+}
+#mp1{
+	background-color: green;
+	width: 250px;
+	height: 300px;
+	float: left;
+	margin-left: 30px;
+	padding: 23px;
+}
+#mp2{
+	background-color: orange;
+	width: 250px;
+	height: 300px;
+	float: right;
+	padding: 50px;
+}
+#Border{
+	width: 300px;
+	border-top: 5px solid red;
+	border-right: 5px dotted green;
+	border-bottom: 5px dashed blue;
+	border-left: 5px ridge orange;
+	clear: both;
+	background-color: gray;
+	border-radius: 10px;
+}
+
+#nav-menu{
+	width: 500px;
+	height: 60px;
+	background-color: #639e63;
+	margin: 0 auto;
+}
+
+#nav-menu ul li{
+	list-style: none;
+
+}
+
+#nav-menu ul li a{
+	text-decoration: none;
+	font-size: 25px;
+	color:white;	
+	margin:10px;
+}
+#nav-menu ul li a:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+.e1{
+	width: 600px;
+	border:2px solid green;
+}
+
+.e2{
+	max-width: 600px;
+	border:2px solid green;
+}
+
+.gradient{
+	height: 400px;
+	width: 100%;
+	background-image: linear-gradient(to right, red, green, yellow, blue);
+}
+
+.gradient2{
+	height: 400px;
+	width: 100%;
+	background-image: radial-gradient(circle, red, green, yellow, blue);
+}
+
+
+#z1{
+	height: 200px;
+	background-color: #4E008E;
+}
+#z2{
+	height: 200px;
+	width: 80%;
+	background-color: red;
+	margin: auto;
+	z-index: 1;
+	position: relative;
+	margin-top: -20px;
+	margin-bottom: -20px;
+}
+#z3{
+	height: 200px;
+	background-color: #4E008E;
+}
+
+span{
+	color: red;
+	font-size: 30px;
+}
